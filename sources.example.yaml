@@ -1,0 +1,49 @@
+sources:
+  - name: OpenAI News
+    url: https://openai.com/news/rss.xml
+    categoryHint: ai
+    language: en
+    weight: 1.25
+    enabled: true
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    categoryHint: ai
+    language: en
+    weight: 1.2
+    enabled: true
+  - name: NVIDIA Blog
+    url: https://blogs.nvidia.com/feed/
+    categoryHint: chips
+    language: en
+    weight: 1.2
+    enabled: true
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    categoryHint: ai
+    language: en
+    weight: 1.0
+    enabled: true
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    categoryHint: internet
+    language: en
+    weight: 0.95
+    enabled: true
+  - name: IEEE Spectrum Robotics
+    url: https://spectrum.ieee.org/rss/robotics/fulltext
+    categoryHint: robotics
+    language: en
+    weight: 1.0
+    enabled: true
+  - name: 量子位
+    url: https://www.qbitai.com/feed
+    categoryHint: ai
+    language: zh
+    weight: 1.0
+    enabled: true
+  - name: 机器之心
+    url: https://www.jiqizhixin.com/rss
+    categoryHint: ai
+    language: zh
+    weight: 1.0
+    enabled: true
